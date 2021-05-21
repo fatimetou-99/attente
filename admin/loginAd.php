@@ -19,7 +19,6 @@
     <div class="container">
    
         <form action="logAd.php" method="POST" class="form">
-        <img class="logo" src="images/logo.png"  alt="LOGO" >
        <br> 
         <?php
 if(isset($_SESSION['status']) && $_SESSION['status'] !='') 

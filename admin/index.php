@@ -1,4 +1,5 @@
 <?php
+ini_set('display_errors', 'on');
 session_start();
 require("session.php");
 if (admin::isloggedA()){

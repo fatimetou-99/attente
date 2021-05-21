@@ -15,12 +15,12 @@ $req=mysqli_query($con, $sql);
 if (mysqli_num_rows($req)>0) {
 
    $_SESSION['admin'] = Array('login' => $login, 'pwd' => $pwd);
-   header("Location:admin.php");
+   header("Location:index.php");
 
 }
 else {
     $_SESSION['status'] = 'Login ou mot de passe incorrecte !';
-    header("Location:admin-login.php");
+    header("Location:loginAd.php");
 
 
 }
